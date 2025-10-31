@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "七年级代数AI学习工具 - 一个帮助七年级学生学习代数的智能练习系统",
   "scripts": {
+    "setup": "npm run install:all",
     "install:all": "cd backend && npm install && cd ../frontend && npm install",
     "dev:backend": "cd backend && npm run dev",
     "dev:frontend": "cd frontend && npm run dev",
+    "dev:all": "echo '🚀 Starting backend and frontend...' && (cd backend && npm run dev &) && sleep 5 && cd frontend && npm run dev",
     "build:backend": "cd backend && npm run build",
     "build:frontend": "cd frontend && npm run build",
     "start:backend": "cd backend && npm start",

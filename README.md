@@ -2,19 +2,34 @@
 
 一个专为七年级学生设计的代数学习系统，通过智能练习、变式训练和数据分析帮助学生掌握代数知识。
 
-## 🚀 快速开始
+## 🌐 立即在线使用（无需安装）
+
+<div align="center">
+
+### ⚡ 点击下方按钮，1分钟启动完整应用！
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/stoneshi-sudo/AI-learning-buddy/tree/claude/junior-algebra-learning-tool-011CUeWszVdK8HGfdBg7ymYp)
+
+**Codespace 打开后，在终端运行：`./start-app.sh`**
+
+📖 详细说明：[Codespaces 一键启动指南](./CODESPACES_GUIDE.md)
+
+---
+
+</div>
+
+## 🚀 其他运行方式
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/stoneshi-sudo/AI-learning-buddy)
-[![Codespaces](https://img.shields.io/badge/GitHub-Codespaces-green?logo=github)](https://github.com/stoneshi-sudo/AI-learning-buddy/codespaces)
 [![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker)](./docker-compose.yml)
 
-**三种运行方式（选一种即可）：**
+**选择适合你的方式：**
 
-1. **GitHub Codespaces**（最简单）- [查看指南](./QUICKSTART.md#方式1github-codespaces最简单推荐)
-2. **Docker一键启动**（最快）- [查看指南](./QUICKSTART.md#方式2docker一键启动最快需要docker)
-3. **本地开发**（传统方式）- [查看指南](./QUICKSTART.md#方式3本地开发传统方式)
+1. **GitHub Codespaces**（推荐）- 浏览器中直接运行，无需安装 - [查看指南](./CODESPACES_GUIDE.md)
+2. **Docker一键启动** - 本地快速启动 - [查看指南](./QUICKSTART.md#方式2docker一键启动最快需要docker)
+3. **本地开发** - 传统开发方式 - [查看指南](./QUICKSTART.md#方式3本地开发传统方式)
 
-📖 详细启动指南：[QUICKSTART.md](./QUICKSTART.md) | GitHub环境：[GITHUB_SETUP.md](./GITHUB_SETUP.md)
+📖 更多文档：[QUICKSTART.md](./QUICKSTART.md) | [GITHUB_SETUP.md](./GITHUB_SETUP.md) | [ACCESS.md](./ACCESS.md)
 
 ## ✨ 核心功能
 
