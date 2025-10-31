@@ -1,0 +1,39 @@
+name: Deploy
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy-info:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Deployment Information
+      run: |
+        echo "🚀 Deployment Guide"
+        echo "==================="
+        echo ""
+        echo "This project can be deployed to:"
+        echo "1. Vercel (Frontend) + Railway/Render (Backend)"
+        echo "2. Netlify (Frontend) + Heroku (Backend)"
+        echo "3. Self-hosted VPS"
+        echo ""
+        echo "📦 Build Commands:"
+        echo "Frontend: cd frontend && npm install && npm run build"
+        echo "Backend: cd backend && npm install && npm run build"
+        echo ""
+        echo "🔧 Environment Variables:"
+        echo "Backend:"
+        echo "  - PORT=3001"
+        echo "  - DATABASE_PATH=./data/learning.db"
+        echo "  - NODE_ENV=production"
+        echo ""
+        echo "Frontend:"
+        echo "  - VITE_API_URL=https://your-backend-url.com"
+        echo ""
+        echo "📖 For detailed instructions, see DEPLOY.md"
