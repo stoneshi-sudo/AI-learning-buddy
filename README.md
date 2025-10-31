@@ -2,6 +2,20 @@
 
 一个专为七年级学生设计的代数学习系统，通过智能练习、变式训练和数据分析帮助学生掌握代数知识。
 
+## 🚀 快速开始
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/stoneshi-sudo/AI-learning-buddy)
+[![Codespaces](https://img.shields.io/badge/GitHub-Codespaces-green?logo=github)](https://github.com/stoneshi-sudo/AI-learning-buddy/codespaces)
+[![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker)](./docker-compose.yml)
+
+**三种运行方式（选一种即可）：**
+
+1. **GitHub Codespaces**（最简单）- [查看指南](./QUICKSTART.md#方式1github-codespaces最简单推荐)
+2. **Docker一键启动**（最快）- [查看指南](./QUICKSTART.md#方式2docker一键启动最快需要docker)
+3. **本地开发**（传统方式）- [查看指南](./QUICKSTART.md#方式3本地开发传统方式)
+
+📖 详细启动指南：[QUICKSTART.md](./QUICKSTART.md) | GitHub环境：[GITHUB_SETUP.md](./GITHUB_SETUP.md)
+
 ## ✨ 核心功能
 
 ### 1. 📝 智能测试系统
