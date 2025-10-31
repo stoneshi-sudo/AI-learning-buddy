@@ -1,36 +1,38 @@
 # 🚀 GitHub Codespaces 一键启动指南
 
-## ⚡ 快速开始（仅需2步）
+## ⚡ 超级简单！仅需1步
 
-### 步骤1：创建 Codespace
+### 点击按钮，自动启动！
 
-1. 访问项目主页：
+1. **点击启动链接：**
+   ```
+   https://codespaces.new/stoneshi-sudo/AI-learning-buddy/tree/claude/junior-algebra-learning-tool-011CUeWszVdK8HGfdBg7ymYp
+   ```
+
+   或访问项目主页，点击绿色按钮：
    ```
    https://github.com/stoneshi-sudo/AI-learning-buddy
    ```
 
-2. 点击绿色按钮 `<> Code`
+2. **等待环境准备**（约1-2分钟）
+   - 自动安装所有依赖
+   - 自动启动后端服务器
+   - 自动启动前端应用
 
-3. 选择 `Codespaces` 标签
+3. **应用自动打开！** 🎉
 
-4. 点击 `Create codespace on claude/junior-algebra-learning-tool-011CUeWszVdK8HGfdBg7ymYp`
+**就这么简单！无需任何命令！**
 
-5. 等待环境准备（约1-2分钟）
+### ✨ 完全自动化
 
-### 步骤2：启动应用
-
-Codespace 打开后，在终端中运行：
-
-```bash
-./start-app.sh
-```
-
-**就这么简单！** 🎉
-
-应用会自动：
+打开 Codespace 后，系统会自动：
+- ✅ 安装所有依赖（npm install）
+- ✅ 创建数据库目录
 - ✅ 启动后端API（端口3001）
 - ✅ 启动前端应用（端口5173）
-- ✅ 自动打开浏览器标签
+- ✅ 自动在浏览器中打开应用
+
+**您什么都不用做，只需等待！**
 
 ---
 

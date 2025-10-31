@@ -2,17 +2,19 @@
 
 一个专为七年级学生设计的代数学习系统，通过智能练习、变式训练和数据分析帮助学生掌握代数知识。
 
-## 🌐 立即在线使用（无需安装）
+## 🌐 立即在线使用（无需安装，完全自动）
 
 <div align="center">
 
-### ⚡ 点击下方按钮，1分钟启动完整应用！
+### ⚡ 点击下方按钮，应用自动启动！
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/stoneshi-sudo/AI-learning-buddy/tree/claude/junior-algebra-learning-tool-011CUeWszVdK8HGfdBg7ymYp)
 
-**Codespace 打开后，在终端运行：`./start-app.sh`**
+**✨ 完全自动化！打开后无需任何操作，应用自动运行！**
 
-📖 详细说明：[Codespaces 一键启动指南](./CODESPACES_GUIDE.md)
+点击按钮 → 等待1-2分钟 → 应用自动打开 🎉
+
+📖 详细说明：[Codespaces 自动启动指南](./CODESPACES_GUIDE.md)
 
 ---
 

@@ -17,7 +17,8 @@
       "onAutoForward": "openBrowser"
     }
   },
-  "postCreateCommand": "npm run install:all && chmod +x start-app.sh && echo '\n✅ Setup complete! To start the app, run: ./start-app.sh'",
+  "postCreateCommand": "npm run install:all && mkdir -p backend/data && chmod +x start-app.sh .devcontainer/auto-start.sh .devcontainer/welcome.sh",
+  "postStartCommand": "bash .devcontainer/welcome.sh && bash .devcontainer/auto-start.sh",
   "customizations": {
     "vscode": {
       "extensions": [
